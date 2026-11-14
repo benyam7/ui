@@ -110,7 +110,7 @@ const stacks = [
 type StackId = (typeof stacks)[number]["id"]
 
 const skillStep =
-  "If you support skills, run: npx skills add vercel-labs/ui --skill ui-sdk"
+  "If you support skills, run: npx skills@latest add vercel-labs/ui --skill ui-sdk"
 const closing = "When you're done, ask me what I'd like to build."
 
 function findStack(id: string) {
